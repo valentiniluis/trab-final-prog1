@@ -1,6 +1,23 @@
 package trabalho_final;
 import java.util.Scanner;
 
+/*
+
+Descrição do problema abordado:
+
+    O programa desenvolvido fornece uma base para a manutenção de uma loja de calçados. O usuário alvo seria
+o gerente, dono ou administrador da loja, podendo controlar diferentes características e dados sobre a loja.
+A loja de calçados herda da classe Empresa, adquirindo atributos importantes como proprietário, CNPJ, data
+de criação, funcionários, entre outros. Enquanto isso, a loja de calçados contempla outros atributos, esses
+um pouco mais específicos, como o endereço, o gerente e o valor das vendas.
+
+    Através do sistema desenvolvido, o usuário pode escolher entre usar uma loja-exemplo e testar as funcio-
+nalidade disponíveis, ou ainda criar uma empresa, inserindo todos os campos necessários. Entre as funcionali-
+dades disponibilizadas estão: exibir lista de funcionários, exibir gerente, calcular folha salarial, efetuar
+vendas, exibir valor vendido no mês/ano, entre outras.
+
+ */
+
 public class SistemaLoja {
 
     public static void iniciarSistema() {
